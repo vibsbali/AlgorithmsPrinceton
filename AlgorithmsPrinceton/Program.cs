@@ -1,5 +1,6 @@
 ﻿using System;
 using SearchingAlgorithms;
+using UnionFind;
 
 namespace AlgorithmsPrinceton
 {
@@ -7,14 +8,23 @@ namespace AlgorithmsPrinceton
     {
         static void Main()
         {
+            var uf = new Uf(10);
 
-            var array = new[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            uf.Union(4, 3);
+            uf.Union(3, 8);
+            uf.Union(6, 5);
+            uf.Union(9, 4);
+            uf.Union(2, 1);
+            
 
-            var searchAlgorithms = new BinarySearch<int>();
+            Console.WriteLine(uf.AreConnected(0, 7));
+            Console.WriteLine(uf.AreConnected(8, 9));
 
-            var result = searchAlgorithms.Search(array, 11);
-
-            Console.WriteLine(result);
+            uf.Union(5, 0);
+            uf.Union(7, 2);
+            uf.Union(6, 1);
+            uf.Union(1, 0);
+            Console.WriteLine(uf.AreConnected(0, 7));
         }
     }
 }

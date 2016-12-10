@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsPrinceton", "Algo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingAlgorithms", "SearchingAlgorithms\SearchingAlgorithms.csproj", "{D409AEEC-69DE-4782-AB9B-CF7B7481080D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionFind", "UnionFind\UnionFind.csproj", "{2F3B508A-21FC-45F7-BCFB-4C2AE8F07349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D409AEEC-69DE-4782-AB9B-CF7B7481080D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D409AEEC-69DE-4782-AB9B-CF7B7481080D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D409AEEC-69DE-4782-AB9B-CF7B7481080D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3B508A-21FC-45F7-BCFB-4C2AE8F07349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3B508A-21FC-45F7-BCFB-4C2AE8F07349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3B508A-21FC-45F7-BCFB-4C2AE8F07349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3B508A-21FC-45F7-BCFB-4C2AE8F07349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
