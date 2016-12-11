@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingAlgorithms", "Sear
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionFind", "UnionFind\UnionFind.csproj", "{2F3B508A-21FC-45F7-BCFB-4C2AE8F07349}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{F08EB36D-E6D0-4406-A8E6-0F60D7DEB729}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2F3B508A-21FC-45F7-BCFB-4C2AE8F07349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F3B508A-21FC-45F7-BCFB-4C2AE8F07349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F3B508A-21FC-45F7-BCFB-4C2AE8F07349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08EB36D-E6D0-4406-A8E6-0F60D7DEB729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08EB36D-E6D0-4406-A8E6-0F60D7DEB729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08EB36D-E6D0-4406-A8E6-0F60D7DEB729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08EB36D-E6D0-4406-A8E6-0F60D7DEB729}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
