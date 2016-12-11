@@ -1,5 +1,4 @@
 ﻿using System;
-using SearchingAlgorithms;
 using UnionFind;
 
 namespace AlgorithmsPrinceton
@@ -8,14 +7,14 @@ namespace AlgorithmsPrinceton
     {
         static void Main()
         {
-            var uf = new Uf(10);
+            var uf = new UnionFindOptimized(10);
 
             uf.Union(4, 3);
             uf.Union(3, 8);
             uf.Union(6, 5);
             uf.Union(9, 4);
             uf.Union(2, 1);
-            
+
 
             Console.WriteLine(uf.AreConnected(0, 7));
             Console.WriteLine(uf.AreConnected(8, 9));
@@ -25,6 +24,8 @@ namespace AlgorithmsPrinceton
             uf.Union(6, 1);
             uf.Union(1, 0);
             Console.WriteLine(uf.AreConnected(0, 7));
+
+            Console.WriteLine(uf.NumberOfUnconnectedPoints);
         }
     }
 }
