@@ -1,6 +1,6 @@
 ﻿using System;
-using StringSearchingAlgorithms;
-
+using System.Linq;
+using SortingAlgorithms;
 
 namespace AlgorithmsPrinceton
 {
@@ -8,13 +8,32 @@ namespace AlgorithmsPrinceton
     {
         static void Main()
         {
-            var stringToSearch = "Hello";
+            var range = Enumerable.Range(1, 123).ToArray();
 
-            var originalString = "that can He llo no tfounHeHeHelhellod";
+            var random = new Random();
 
-            var result = new BoyerMooreHorspool().Contains(originalString, stringToSearch);
+            for (int i = 0; i < range.Length; i++)
+            {
+                var firstIndex = random.Next(0, 122);
+                var secondIndex = random.Next(0, 122);
 
-            Console.WriteLine(result);
+                Swap(range, firstIndex, secondIndex);
+            }
+
+            var array = range.ToArray();
+            MergeSort.Sort(array);
+
+            foreach (var i in array)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+        private static void Swap(int[] range, int firstIndex, int secondIndex)
+        {
+            var temp = range[secondIndex];
+            range[secondIndex] = range[firstIndex];
+            range[firstIndex] = temp;
         }
     }
 }
