@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{14BE3795-4CDF-466F-A64B-961B97604678}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{C77AF0E6-64ED-4D44-9414-3A9D93700099}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AlgorithmsPrinceton</RootNamespace>
-    <AssemblyName>AlgorithmsPrinceton</AssemblyName>
+    <RootNamespace>SymbolTables</RootNamespace>
+    <AssemblyName>SymbolTables</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BinarySearchTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\StringSearchingAlgorithms\StringSearchingAlgorithms.csproj">
-      <Project>{58dd8a05-80bf-41da-ac67-cfaad0c6ad89}</Project>
-      <Name>StringSearchingAlgorithms</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SymbolTables\SymbolTables.csproj">
-      <Project>{c77af0e6-64ed-4d44-9414-3a9d93700099}</Project>
-      <Name>SymbolTables</Name>
-    </ProjectReference>
+    <Compile Include="ST.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

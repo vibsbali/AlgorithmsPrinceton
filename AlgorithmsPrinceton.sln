@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "Sortin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearchingAlgorithms", "StringSearchingAlgorithms\StringSearchingAlgorithms.csproj", "{58DD8A05-80BF-41DA-AC67-CFAAD0C6AD89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolTables", "SymbolTables\SymbolTables.csproj", "{C77AF0E6-64ED-4D44-9414-3A9D93700099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{58DD8A05-80BF-41DA-AC67-CFAAD0C6AD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58DD8A05-80BF-41DA-AC67-CFAAD0C6AD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58DD8A05-80BF-41DA-AC67-CFAAD0C6AD89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77AF0E6-64ED-4D44-9414-3A9D93700099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77AF0E6-64ED-4D44-9414-3A9D93700099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77AF0E6-64ED-4D44-9414-3A9D93700099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77AF0E6-64ED-4D44-9414-3A9D93700099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
